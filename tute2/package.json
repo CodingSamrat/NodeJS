@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "New Node Tutorial Project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "node .",
     "start": "node ."

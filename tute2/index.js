@@ -1,12 +1,9 @@
-const QRCode = require('qrcode');
-const fs = require('fs');
-
-QRCode.toFile('qrcode.png', 'https://techbaan.com', {
+import QRCode from 'qrcode'
+QRCode.toFile('./tbqr-bg.png', 'https://techbaan.com/info', {
     color: {
         dark: '#252525',
-        light: '#ffffff'  // make it transparent
+        light: '#fff'
     }
 }, (err) => {
     if (err) throw err;
-    console.log('QR Code saved as qrcode.png');
 });
