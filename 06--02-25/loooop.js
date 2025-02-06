@@ -85,6 +85,43 @@ while (i <= 10) {
 
 const allNumbers = [76, 45, 89, 87, 100, 45, 90, 34, 35, 87, 90]
 
+// const students = [
+//     {
+//         name:"",
+//         roll:'',
+//         class:'',
+//         section:''
+//     },
+//     {
+//         name:"",
+//         roll:'',
+//         class:'',
+//         section:''
+//     },
+//     {
+//         name:"",
+//         roll:'',
+//         class:'',
+//         section:''
+//     },
+//     {
+//         name:"",
+//         roll:'',
+//         class:'',
+//         section:''
+//     },
+//     {
+//         name:"",
+//         roll:'',
+//         class:'',
+//         section:''
+//     },
+// ]
+
+// Samrat is in class 5 Section A. His roll is 4, 
+
+
+
 // console.log(allNumbers[2])
 
 let j = 0
