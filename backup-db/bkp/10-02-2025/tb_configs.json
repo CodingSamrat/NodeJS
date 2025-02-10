@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "674da93c24a0d05685a303f1",
+    "codeName": "default_avatar",
+    "__v": 0,
+    "description": "Default User Avatar",
+    "title": "Default User Avatar",
+    "value": "/avatars/avatar.png"
+  },
+  {
+    "_id": "674da93c24a0d05685a303f2",
+    "codeName": "login_image",
+    "__v": 0,
+    "description": "",
+    "title": "Login page Banner Image",
+    "value": "/utils/login.png"
+  }
+]

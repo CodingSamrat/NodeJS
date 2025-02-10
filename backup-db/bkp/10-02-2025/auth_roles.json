@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "673ccb1b011be1f4e632b2a8",
+    "role": "Vendor",
+    "__v": 0,
+    "createdAt": "2024-11-19T17:30:03.203Z",
+    "updatedAt": "2024-11-19T17:30:03.203Z"
+  },
+  {
+    "_id": "673ccb1b011be1f4e632b2aa",
+    "role": "Customer",
+    "__v": 0,
+    "createdAt": "2024-11-19T17:30:03.203Z",
+    "updatedAt": "2024-11-19T17:30:03.203Z"
+  },
+  {
+    "_id": "673ccb1b011be1f4e632b2a7",
+    "role": "Admin",
+    "__v": 0,
+    "createdAt": "2024-11-19T17:30:03.203Z",
+    "updatedAt": "2024-11-19T17:30:03.203Z"
+  },
+  {
+    "_id": "673ccb1b011be1f4e632b2a9",
+    "role": "Manager",
+    "__v": 0,
+    "createdAt": "2024-11-19T17:30:03.203Z",
+    "updatedAt": "2024-11-19T17:30:03.203Z"
+  }
+]

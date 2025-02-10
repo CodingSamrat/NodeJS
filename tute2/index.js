@@ -1,7 +1,7 @@
 import QRCode from 'qrcode'
-QRCode.toFile('./tbqr-bg.png', 'https://techbaan.com/info', {
+QRCode.toFile('./sunchakro.png', 'https://sunchakro.com/', {
     color: {
-        dark: '#252525',
+        dark: '#000',
         light: '#fff'
     }
 }, (err) => {

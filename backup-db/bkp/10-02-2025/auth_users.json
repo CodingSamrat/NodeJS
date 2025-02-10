@@ -1,0 +1,55 @@
+[
+  {
+    "_id": "67516df3b22b078fa398973a",
+    "name": "sam",
+    "email": "sa@sam.com",
+    "password": "$2a$10$zdbMKthEINEyOHjMrV2bKemZhQAnFTAhWbCMDgAOOLmx7/UVbNDom",
+    "avatar": "/default/avatar.png",
+    "isBanned": false,
+    "isOwner": true,
+    "role": "Admin",
+    "createdAt": "2024-12-05T09:10:11.373Z",
+    "updatedAt": "2024-12-05T09:10:11.373Z",
+    "__v": 0
+  },
+  {
+    "_id": "67516f7ab22b078fa398978e",
+    "name": "Samrat Biswas",
+    "phone": "9933038290",
+    "email": "sam@techbaan.com",
+    "password": "$2a$10$8AgTz0i1gVmJCvqgWpoAZ.kkAoQ00gh2yEQ0QT/RuO9YFoyDCJMZa",
+    "avatar": "/default/avatar.png",
+    "isBanned": false,
+    "role": "Admin",
+    "createdAt": "2024-12-05T09:16:42.707Z",
+    "updatedAt": "2024-12-05T09:16:42.707Z",
+    "__v": 0
+  },
+  {
+    "_id": "675171bbb22b078fa398980e",
+    "name": "Santo",
+    "phone": "9876543210",
+    "email": "santo@techbaaan.com",
+    "password": "$2a$10$dolqVdD6d0/iGwtibK6cSuAkBMCx0h8NMfD8Jec.C6i/RAG8Nymua",
+    "avatar": "/default/avatar.png",
+    "isBanned": false,
+    "role": "Admin",
+    "createdAt": "2024-12-05T09:26:19.328Z",
+    "updatedAt": "2024-12-05T09:26:19.328Z",
+    "__v": 0,
+    "isOwner": true
+  },
+  {
+    "_id": "675171ebb22b078fa3989819",
+    "name": "user",
+    "phone": "9865326542",
+    "email": "user@tb.com",
+    "password": "$2a$10$frciej5AGjO8lPNZzrOnbe6IJYwHSpbtoXRueQZatAtAqXGaPHdz2",
+    "avatar": "/default/avatar.png",
+    "isBanned": false,
+    "role": "Vendor",
+    "createdAt": "2024-12-05T09:27:07.874Z",
+    "updatedAt": "2024-12-05T09:27:07.874Z",
+    "__v": 0
+  }
+]
