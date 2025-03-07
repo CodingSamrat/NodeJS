@@ -6,7 +6,7 @@ import path from 'path';
 // console.log(allFiles)
 
 // Write content to a file
-// await fs.writeFileSync('./src/db/data.txt', '\n\nrr', { flag: 'a' })
+// await fs.writeFileSync('./src/db/data.txt', '', { flag: 'a' })
 
 
 // console.log('Name- Samrat')

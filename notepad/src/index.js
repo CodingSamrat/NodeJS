@@ -51,20 +51,36 @@
 
 
 
-const notes = [
-    { id: 1, title: "Meeting Notes", note: "Discuss project timeline." },
-    { id: 2, title: "Shopping List", note: "Milk, eggs, bread, butter." },
-    { id: 3, title: "Ideas", note: "Work on a new blog post." }
-];
+// const notes = [
+//     { id: 1, title: "Meeting Notes", note: "Discuss project timeline." },
+//     { id: 2, title: "Shopping List", note: "Milk, eggs, bread, butter." },
+//     { id: 3, title: "Ideas", note: "Work on a new blog post." }
+// ];
 
-const keys = Object.keys(notes[1]);
-console.log(keys);
+// const keys = Object.keys(notes[1]);
+// console.log(keys);
 
-const values = Object.values(notes[1]);
-console.log(values);
+// const values = Object.values(notes[1]);
+// console.log(values);
 
 
 // for (let i = 0; i < notes.length; i++) {
 //     const result = Object.keys(notes[1]);
 //     console.log(result);
 // }
+
+
+import path from 'path'
+
+'./src/db/data.txt'
+const p = path.join('src', 'ad', 'db', 'data.txt')
+console.log(p)
+
+notes = []
+
+// Create a notepad
+// Methods -  writeNote, readAllNote, readNoteById, deleteNote,
+// write Note:
+// write note to data.json using fs module.
+//  await fs.writeFileSync('path/to/data.json', notesArray)
+//  await fs.riteFileSync('path/to/data.json')
