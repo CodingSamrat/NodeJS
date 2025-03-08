@@ -73,10 +73,8 @@
 import path from 'path'
 
 './src/db/data.txt'
-const p = path.join('src', 'ad', 'db', 'data.txt')
+const p = path.join('src', 'ad', 'dbad', 'data.txt')
 console.log(p)
-
-notes = []
 
 // Create a notepad
 // Methods -  writeNote, readAllNote, readNoteById, deleteNote,
