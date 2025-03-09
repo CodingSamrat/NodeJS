@@ -40,10 +40,17 @@ async function addStudent() {
                 rl.question('Enter your age: ', async (age) => {
                     newStudent.age = age;
 
+                    // Read objet array from database
                     const db = await readFromDatabase()
-                    db.push(newStudent)
-                    // unique id 
 
+                    // generate unique id
+                    let lastObj = db[db.length - 1];
+                    newStudent.id = lastObj?.id ? lastObj?.id + 1 : 1
+
+                    // Push new Student object to the database array
+                    db.push(newStudent)
+
+                    // Write New array to the Database
                     await writeToDatabase(db)
 
                     rl.close();
@@ -61,7 +68,7 @@ async function showStudentDetails(id) {
 
 }
 
-async function deleteAllStudent() {
+async function deleteAllStudent(id) {
 
 }
 
