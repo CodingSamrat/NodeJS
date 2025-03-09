@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Xyz",
+        "class": "3",
+        "roll": "34",
+        "age": "12"
+    },
+    {
+        "name": "Samrat",
+        "class": "1",
+        "roll": "9",
+        "age": "6"
+    },
+    {
+        "name": "Badal Majumdar",
+        "class": "3",
+        "roll": "4",
+        "age": "9"
+    }
+]
